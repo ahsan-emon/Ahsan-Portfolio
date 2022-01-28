@@ -1,0 +1,10 @@
+@media screen and (max-width: 320px) {
+  .download-btn {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .hire-btn {
+    font-size: 16px;
+    padding: 10px 35px;
+  }
+}
