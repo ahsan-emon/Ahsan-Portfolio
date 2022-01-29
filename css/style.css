@@ -95,7 +95,7 @@ header nav ul li a {
   top: 8px;
   left: -40px;
   width: 4px;
-  height: 90%;
+  height: 98%;
   background-color: #f54748;
 }
 .timeline h2 {
@@ -116,14 +116,70 @@ header nav ul li a {
 .circle-timeline::after {
   content: "";
   position: absolute;
-  top: 8px;
-  left: -47px;
+  top: 3px;
+  left: -59px;
   width: 18px;
   height: 18px;
   border-radius: 50%;
   border: 3px solid #f54748;
-  background-color: #ebf4f5;
+  background-color: #515354;
   z-index: 99;
+  transition: 0.4s all ease-in-out;
+}
+.bachelor-degree {
+  padding: 5px 5px 5px 12px;
+  border-radius: 5px;
+  transition: 0.4s all ease-in-out;
+}
+.bachelor-degree:hover {
+  box-shadow: 0px 0px 4px 2px #585c62;
+}
+.bachelor-degree:hover .circle-timeline::after {
+  background-color: #fff;
+}
+.higher-secondary-degree {
+  padding: 5px 5px 5px 12px;
+  border-radius: 5px;
+  transition: 0.4s all ease-in-out;
+}
+.higher-secondary-degree:hover {
+  box-shadow: 0px 0px 4px 2px #585c62;
+}
+.higher-secondary-degree:hover .circle-timeline::after {
+  background-color: #fff;
+}
+.secondary-school-degree {
+  padding: 5px 5px 5px 12px;
+  border-radius: 5px;
+  transition: 0.4s all ease-in-out;
+}
+.secondary-school-degree:hover {
+  box-shadow: 0px 0px 4px 2px #585c62;
+}
+.secondary-school-degree:hover .circle-timeline::after {
+  background-color: #fff;
+}
+.shikhbe-shobai {
+  padding: 5px 5px 5px 12px;
+  border-radius: 5px;
+  transition: 0.4s all ease-in-out;
+}
+.shikhbe-shobai:hover {
+  box-shadow: 0px 0px 4px 2px #585c62;
+}
+.shikhbe-shobai:hover .circle-timeline::after {
+  background-color: #fff;
+}
+.own-project {
+  padding: 5px 5px 5px 12px;
+  border-radius: 5px;
+  transition: 0.4s all ease-in-out;
+}
+.own-project:hover {
+  box-shadow: 0px 0px 4px 2px #585c62;
+}
+.own-project:hover .circle-timeline::after {
+  background-color: #fff;
 }
 /* skills section start  */
 .skills span {
