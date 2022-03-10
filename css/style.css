@@ -132,14 +132,15 @@ header nav ul li a {
 }
 .timeline-info {
   padding: 5px 5px 5px 12px;
-  border-radius: 5px;
+  border-radius: 6px;
   transition: 0.4s all ease-in-out;
 }
 .timeline-info:hover {
-  box-shadow: 0px 0px 4px 2px #585c62;
+  box-shadow: 3px 7px 15px 0px #7e9da24d;
 }
 .timeline-info:hover .circle-timeline::after {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 2px #ffffff87;
 }
 /* skills section start  */
 .skills span {
