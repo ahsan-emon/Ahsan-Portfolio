@@ -872,19 +872,16 @@
     <script src="js/owl.carousel.min.js"></script>
     <script>
       $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        autoplay:true,
-        autoplayTimeout:2000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause:true,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            }
-        }
+          items: 1,
+          singleItem: true,
+          margin: 10,
+          loop: true,
+          autoplay: true,
+          smartSpeed: 1000,
+          autoplayHoverPause: true,
+          nav: true,
+          dots: false,
+          navText: ["<i class='fas fa-angle-left'></i>","<i class='fas fa-angle-right'></i>"]
     })
     </script>
     <!-- project effect  -->

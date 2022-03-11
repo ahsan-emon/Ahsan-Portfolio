@@ -557,14 +557,12 @@ header nav ul li a {
   box-shadow: -1px 2px 22px -9px rgb(0 0 0 / 41%) !important;
   transition: 0.3s ease-in !important;
 }
-.owl-prev:hover span {
+.owl-prev i {
   color: #131917;
-  transition: 0.3s ease-in;
 }
-.owl-prev span {
-  font-size: 30px;
-  font-weight: 700;
+.owl-prev:hover i {
   color: #f54748;
+  transition: 0.3s ease-in;
 }
 .owl-next {
   width: 50px !important;
@@ -577,13 +575,11 @@ header nav ul li a {
   box-shadow: -1px 2px 22px -9px rgb(0 0 0 / 41%) !important;
   transition: 0.3s ease-in !important;
 }
-.owl-next span {
-  font-size: 30px;
-  font-weight: 700;
-  color: #f54748;
-}
-.owl-next:hover span {
+.owl-next i {
   color: #131917;
+}
+.owl-next:hover i {
+  color: #f54748;
   transition: 0.3s ease-in;
 }
 .owl-theme .owl-dots .owl-dot.active span,
